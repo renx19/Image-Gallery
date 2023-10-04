@@ -52,7 +52,7 @@ body {
   
   .card {
     position: relative;
-    height: 45rem;
+    height: 35rem;
     overflow: hidden;
   }
   
@@ -263,22 +263,60 @@ body {
   
   #filterable-cards {
     width: 20rem; /* Adjust width as needed */
-    height: 35rem; /* Keep the desired height */
-    position: relative;
-    margin: 5rem 0 5rem 0 ;
-    transition: transform 0.3s ease-in-out, flex 0.3s ease-in-out;
-   
+    height: 20rem; /* Keep the desired height */
+  
   
   }
-  
-  
+  #filter-buttons {
+    display:flex;
+    flex-direction: column;
+    
+  } 
+  .card{
+   height: 25rem;
+  } 
+
+  #Images img {
+    width: 80%;
+    margin-left: 2rem;
+  }
+  .card-body {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
   
   #filterable-cards1 {
-    width: 50rem; /* Adjust width as needed */
+    width: 60rem; /* Adjust width as needed */
+    height: 10rem; /* Keep the desired height */
+    position: relative;
+    margin: 5rem 0 5rem 0 ;
+  
+  }
+ 
+  .card1{
+    height: 15rem;
+    
+   } 
+  }
+
+  /* Media query for laptops (Acer Nitro or similar) */
+@media screen and (min-width: 14in) and (max-width: 17in) {
+  
+  #filterable-cards1 {
+    width: 40rem; /* Adjust width as needed */
     height: 25rem; /* Keep the desired height */
     position: relative;
     margin: 5rem 0 5rem 0 ;
   
   }
-    
+  
+  #filterable-cards {
+    width: 20rem; /* Adjust width as needed */
+    height: 30rem; /* Keep the desired height */
+  
+   
+  
   }
+
+}
