@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Images Filter Buttons Section -->
+      <div class="Navbar">
+        <div class="nav" id="filter-buttons">
+          <button class="active" data-filter="all">Show all</button>
+          <button class="button-sm" data-filter="Swordsman">Swordsman</button>
+          <button class="button-sm" data-filter="Swordswoman">Swordswoman</button>
+        </div>
+        <button class="slideshow" onclick="window.location.href = 'slide.html'">Slideshow</button>
+      </div>
+        
+      
+
+       <form id="searchForm" action="search_results.html" method="GET">
+        <input type="text" id="find" placeholder="Search..." onkeyup="search()">
+       </form>
+
+      <div class="image-container">
+      <div id="Images" class="Images">
+      <!-- Filterable Images / Cards Section -->
+    </div>
+    </div>
+    <div class="image-container">
+    <div id="Images1" class="Images1">
+      <!-- Filterable Images / Cards Section -->
+    </div>
+    </div>
+    
+   
+ 
+
+ 
+
+
+
+
+
+  
+    <script src="smData.js" ></script>
+    <script src="smlData.js" ></script>
+    <script src="swmData.js" ></script>
+    <script src="swmlData.js"></script>
+
+  </body>
+</html>
